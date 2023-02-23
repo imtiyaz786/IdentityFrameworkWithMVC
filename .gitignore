@@ -1,0 +1,10 @@
+appsettings.json
+appsettings.Development.json
+Startup.cs
+Program.cs
+Data/
+bin/
+obj/
+Properties/
+
+
