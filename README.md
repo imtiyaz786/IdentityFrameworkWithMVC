@@ -40,7 +40,7 @@ It allows developers to:
 - In the controller- use the below 2 attributes for security:
   - [Authorize] with controller
   - [AllowAnonymous] with action - give acces to any1
-- Run te site, check the access to pages you will be redirected to login page, register, confirm email link, check the db , ASPNET USER TABLE, CHECk
+- Run the site, check the access to pages you will be redirected to login page, register, confirm email link, check the db , ASPNET USER TABLE, CHECk
 PASSWORD COLUMN LOGIN AND BROWSE.
 - Configure OAuth (fb, google, twitter, linkedIn, etc.)
   - Add the nuget package for them
