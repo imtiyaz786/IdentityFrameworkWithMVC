@@ -29,9 +29,12 @@ It allows developers to:
 - Write something relevant to these. Do not worry, we will just display some info.
 - Update layout page for all actions in _layour.cshtml under shared folder.
   - Add navigation bar for each like this: 
-      <li class="nav-item">
-        <a class="nav-link text-dark" asp-area="" asp-controller="Banking" asp-action="DownloadStatements">Statements</a>
-      </li>
+      
+      &lt;li class="nav-item"&gt;
+        
+	&lt;a class="nav-link text-dark" asp-area="" asp-controller="Banking" asp-action="DownloadStatements">Statements&lt;/a&gt;
+      
+      &lt;/li&gt;
   - Do the same for each action mentioned above.
 - In the appsettings.json, change the connection string to your servername and db name
 - Build app - tools - package manager console
